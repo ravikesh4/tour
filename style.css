@@ -6,7 +6,9 @@
 }
 
 body {
-    background-color: #a1def7;
+    /*background-color: #a1def7;*/
+    
+    background-image: linear-gradient(to left, #7dd6fa , pink);
 }
 .main-header {
     
@@ -57,11 +59,11 @@ a{
 }
 
 .shade {
-    background-image: linear-gradient(to right, #7dd6fa , white);
+    background-image: linear-gradient(to right, #7dd6fa , pink);
 
 }
 .shade1 {
-    background-image: linear-gradient(to left, #7dd6fa , white);
+    background-image: linear-gradient(to left, #7dd6fa , pink);
     
 }
 /*#background {

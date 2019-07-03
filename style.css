@@ -1,0 +1,340 @@
+ .box1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+    background-color: #a1def7;
+}
+.main-header {
+    
+    background-image: url("https://1.bp.blogspot.com/-JPOddZjBLQw/Wd-47eNaWeI/AAAAAAAAAaY/18dwp82rPVcnj5CcUeKhAjNXtxPMqOLzwCLcBGAs/s1600/leaving-cert-english-night-scene-descriptive-essay.jpg");
+}   
+
+.text {
+    color :white;
+    font-size: 50px;
+}
+
+.bigger {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    font-family: italic;
+}
+
+.center {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+}
+
+.rounded {
+    position: relative;
+    transform: translate(0%, -50%);
+}
+
+a{
+    color : white;
+}
+
+.advantage {
+    text-align: center;
+
+}
+
+.align {
+    align-content: center;
+    text-align: center;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#align {
+    margin-left: 10%;
+}
+
+.shade {
+    background-image: linear-gradient(to right, #7dd6fa , white);
+
+}
+.shade1 {
+    background-image: linear-gradient(to left, #7dd6fa , white);
+    
+}
+/*#background {
+    background-color: yellow;
+ }*/
+ a.click {
+    color : blue;
+ }
+
+ .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .right {
+    /*align-content: right;*/
+    float: right;
+  }
+
+nav ul {
+    background-color: transparent;
+    overflow: hidden;
+    margin: 0;
+    padding: 0; 
+}
+ul.topnav li {
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right {
+    float: right;
+}
+
+ul.topnav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+ul.topnav li a:hover {
+    background-color: #0090ff;
+    color : #fff;
+}
+
+.top {
+    color: black;
+    background-color: #a6a4a2;
+}
+
+
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.box h3 {
+    color: yellow;
+    font-weight: 500;
+}
+
+.box input[type="text"],
+.box input[type="email"],
+.box input[type="tel"],
+.box input[type="password"]
+ {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid cyan;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    transition: 0.25;
+    -webkit-transition: 0.25;
+    -moz-transition: 0.25;
+    -ms-transition: 0.25;
+    -o-transition: 0.25;
+}
+
+.box input[type="text"]:focus,
+.box input[type="email"]:focus,
+.box input[type="tel"]:focus {
+    width: 250px;
+    border-color: cyan;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid cyan;
+    padding: 14px 10px;
+    width: 150px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    transition: 0.25;
+    -webkit-transition: 0.25;
+    -moz-transition: 0.25;
+    -ms-transition: 0.25;
+    -o-transition: 0.25;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+.box2 {
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+}
+
+.box2 h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.box2 h3 {
+    color: yellow;
+    font-weight: 500;
+}
+
+.box2 input[type="text"],
+.box2 input[type="email"],
+.box2 input[type="tel"],
+.box2 input[type="password"]
+ {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid cyan;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    transition: 0.25;
+    -webkit-transition: 0.25;
+    -moz-transition: 0.25;
+    -ms-transition: 0.25;
+    -o-transition: 0.25;
+}
+
+.box2 input[type="text"]:focus,
+.box2 input[type="email"]:focus,
+.box2 input[type="tel"]:focus {
+    width: 250px;
+    border-color: cyan;
+}
+
+.box2 input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid cyan;
+    padding: 14px 10px;
+    width: 150px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    transition: 0.25;
+    -webkit-transition: 0.25;
+    -moz-transition: 0.25;
+    -ms-transition: 0.25;
+    -o-transition: 0.25;
+    cursor: pointer;
+}
+
+.box2 input[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+
+/*Mobile*/
+
+/*######### Mobile ###########*/
+
+@media screen and (max-width: 680px) {
+  ul.topnav li:not(:nth-child(1)) {
+    display: none;
+  }
+  
+  ul.topnav li.dropdownIcon {
+    display: block;
+    float: right;
+  }
+  
+  ul.topnav.responsive li.dropdownIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  ul.topnav.responsive {
+    position: relative;
+  }
+  
+  ul.topnav.responsive li {
+    display: inline;
+    float: none; 
+  }
+  
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }

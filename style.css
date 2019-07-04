@@ -126,185 +126,36 @@ ul.topnav li a:hover {
 }
 
 
-.box {
-    width: 300px;
-    padding: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    background: #191919;
+/*Signup*/
+
+.sign {
+    margin-top: 5%;
+}
+
+.sign1 {
+    justify-content: center;
+}
+
+form h1 {
     text-align: center;
 }
 
-.box h1 {
-    color: white;
-    font-weight: 500;
-}
 
-.box h3 {
-    color: yellow;
-    font-weight: 500;
-}
 
-.box input[type="text"],
-.box input[type="email"],
-.box input[type="tel"],
-.box input[type="password"]
- {
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid cyan;
-    padding: 14px 10px;
+form button {
     width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    -webkit-border-radius: 24px;
-    -moz-border-radius: 24px;
-    -ms-border-radius: 24px;
-    -o-border-radius: 24px;
-    transition: 0.25;
-    -webkit-transition: 0.25;
-    -moz-transition: 0.25;
-    -ms-transition: 0.25;
-    -o-transition: 0.25;
+    justify-content: center;
 }
 
-.box input[type="text"]:focus,
-.box input[type="email"]:focus,
-.box input[type="tel"]:focus {
-    width: 250px;
-    border-color: cyan;
+.move {
+    padding-left: 50%;
 }
-
-.box input[type="submit"] {
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid cyan;
-    padding: 14px 10px;
-    width: 150px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    -webkit-border-radius: 24px;
-    -moz-border-radius: 24px;
-    -ms-border-radius: 24px;
-    -o-border-radius: 24px;
-    transition: 0.25;
-    -webkit-transition: 0.25;
-    -moz-transition: 0.25;
-    -ms-transition: 0.25;
-    -o-transition: 0.25;
-    cursor: pointer;
-}
-
-.box input[type="submit"]:hover {
-    background: #2ecc71;
-}
-
-.box2 {
-    width: 400px;
-    padding: 40px;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-    background: #191919;
-    text-align: center;
-}
-
-.box2 h1 {
-    color: white;
-    font-weight: 500;
-}
-
-.box2 h3 {
-    color: yellow;
-    font-weight: 500;
-}
-
-.box2 input[type="text"],
-.box2 input[type="email"],
-.box2 input[type="tel"],
-.box2 input[type="password"]
- {
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid cyan;
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    -webkit-border-radius: 24px;
-    -moz-border-radius: 24px;
-    -ms-border-radius: 24px;
-    -o-border-radius: 24px;
-    transition: 0.25;
-    -webkit-transition: 0.25;
-    -moz-transition: 0.25;
-    -ms-transition: 0.25;
-    -o-transition: 0.25;
-}
-
-.box2 input[type="text"]:focus,
-.box2 input[type="email"]:focus,
-.box2 input[type="tel"]:focus {
-    width: 250px;
-    border-color: cyan;
-}
-
-.box2 input[type="submit"] {
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid cyan;
-    padding: 14px 10px;
-    width: 150px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    -webkit-border-radius: 24px;
-    -moz-border-radius: 24px;
-    -ms-border-radius: 24px;
-    -o-border-radius: 24px;
-    transition: 0.25;
-    -webkit-transition: 0.25;
-    -moz-transition: 0.25;
-    -ms-transition: 0.25;
-    -o-transition: 0.25;
-    cursor: pointer;
-}
-
-.box2 input[type="submit"]:hover {
-    background: #2ecc71;
-}
-
-
 
 ul.topnav li.dropdownIcon {
     display: none;
 }
+
+
 
 
 /*Mobile*/

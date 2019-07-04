@@ -150,6 +150,9 @@ form button {
 .move {
     padding-left: 50%;
 }
+.move1 {
+    padding-left: 41%;
+}
 
 ul.topnav li.dropdownIcon {
     display: none;

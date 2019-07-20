@@ -169,7 +169,10 @@ ul.topnav li.dropdownIcon {
   ul.topnav li:not(:nth-child(1)) {
     display: none;
   }
-  
+.bigger {
+    font-size: 50px;
+  }
+ 
   ul.topnav li.dropdownIcon {
     display: block;
     float: right;
